@@ -45,6 +45,7 @@ class _MyAppState extends State<MyApp> {
                   onError: (error) {
                     print('###### $error');
                     errorData = error.toString();
+                    setState(() {});
                   },
                   childOnError: Text('ERROR =>$errorData<='),
                 ),
