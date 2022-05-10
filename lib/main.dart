@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pay/pay.dart';
+import 'package:mad_pay/mad_pay.dart' as madpay;
 
 void main() => runApp(MyApp());
 
@@ -10,6 +11,18 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String errorData = 'Sin identificar';
+
+  Pay payclient = Pay.withAssets(['sample_payment_configuration.json']);
+
+  defaultOnPressed(List<PaymentItem> paymentItems) async {
+    try {
+      final result =
+          await payclient.showPaymentSelector(paymentItems: paymentItems);
+      // onPaymentResult(result);
+    } catch (error) {
+      // onError?.call(error);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -72,12 +85,65 @@ class _MyAppState extends State<MyApp> {
                   childOnError: Text('ERROR =>$errorData<='),
                 ),
               ),
+              Divider(),
+              MaterialButton(
+                onPressed: () async {
+                  await defaultOnPressed(_paymentItems);
+                },
+                child: Text('Demo boton pay'),
+              ),
+              Divider(),
+              Container(
+                padding: EdgeInsets.all(20),
+                color: Colors.red,
+                child: madpay.GooglePayButton(
+                  childIfUnavailable: Text('ERROR'),
+                  type: madpay.GooglePayButtonType.plain,
+                  request: madpay.PaymentRequest.google(
+                    google: googleParameters,
+                    currencyCode: 'USD',
+                    countryCode: 'US',
+                    paymentItems: <madpay.PaymentItem>[
+                      madpay.PaymentItem(name: 'T-Shirt', price: 2.98),
+                      madpay.PaymentItem(name: 'Trousers', price: 15.24),
+                    ],
+                  ),
+                  onPaymentResult: (madpay.PaymentResponse req) {
+                    // ...
+                  },
+                  onError: (Object e) {
+                    // ...
+                  },
+                ),
+              )
             ],
           ),
         ),
       ),
     );
   }
+
+  final madpay.GoogleParameters googleParameters = madpay.GoogleParameters(
+    gatewayName: 'firstdata',
+    gatewayMerchantId: 'example_id',
+    merchantId: 'TEST',
+    merchantName: 'Test',
+    cardParameters: madpay.CardParameters(
+      billingAddressRequired: true,
+      billingAddressParameters: madpay.BillingAddressParameters(
+        billingFormat: madpay.BillingFormat.full,
+        phoneNumberRequired: true,
+      ),
+    ),
+    transactionInfo: madpay.TransactionInfo(
+      totalPriceLabel: 'Test',
+      checkoutOption: madpay.CheckoutOption.completeImmediatePurchase,
+    ),
+    shippingAddressRequired: true,
+    shippingAddressParameters: madpay.ShippingAddressParameters(
+      phoneNumberRequired: true,
+    ),
+  );
 
   var _paymentItems = [
     PaymentItem(

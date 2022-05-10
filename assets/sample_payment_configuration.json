@@ -2,7 +2,7 @@
     "provider": "google_pay",
     "data": {
       "environment": "TEST",
-      "apiVersion": 2,
+      "apiVersion": 1,
       "apiVersionMinor": 0,
       "allowedPaymentMethods": [{
         "type": "CARD",
@@ -24,7 +24,7 @@
         }
       }],
       "merchantInfo": {
-        "merchantId": "12345678901234567890",
+        "merchantId": "example",
         "merchantName": "Example Merchant"
       },
       "transactionInfo": {
