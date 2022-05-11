@@ -40,30 +40,7 @@ class _MyAppState extends State<MyApp> {
             // mainAxisSize: MainAxisSize.min,
 
             children: [
-              Text('Aqui deberia ir el boton de applePay'),
-              Container(
-                color: Colors.orange,
-                padding: EdgeInsets.all(45),
-                child: ApplePayButton(
-                  paymentConfigurationAsset:
-                      'sample_payment_configuration.json',
-                  paymentItems: _paymentItems,
-                  style: ApplePayButtonStyle.black,
-                  type: ApplePayButtonType.buy,
-                  margin: const EdgeInsets.only(top: 15.0),
-                  onPaymentResult: onApplePayResult,
-                  loadingIndicator: const Center(
-                    child: CircularProgressIndicator(),
-                  ),
-                  onError: (error) {
-                    print('###### $error');
-                    errorData = error.toString();
-                    setState(() {});
-                  },
-                  childOnError: Text('ERROR =>$errorData<='),
-                ),
-              ),
-              Text('Aqui deberia ir el boton de google pay'),
+              Text('Aqui deberia ir el boton de google pay natural'),
               Container(
                 color: Colors.blue,
                 padding: EdgeInsets.all(45),
@@ -86,13 +63,19 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               Divider(),
+              Text('Aqui deberia ir el boton de google pay forzado'),
               MaterialButton(
                 onPressed: () async {
                   await defaultOnPressed(_paymentItems);
                 },
-                child: Text('Demo boton pay'),
+                child: Text(
+                  'Demo boton pay',
+                  style: TextStyle(color: Colors.white),
+                ),
+                color: Colors.black,
               ),
               Divider(),
+              Text('Segundo intento con otra dependencia'),
               Container(
                 padding: EdgeInsets.all(20),
                 color: Colors.red,

@@ -24,8 +24,8 @@
         }
       }],
       "merchantInfo": {
-        "merchantId": "example",
-        "merchantName": "Example Merchant"
+        "merchantId": "BCR2DN4TWCMIXTJD",
+        "merchantName": "TestAle"
       },
       "transactionInfo": {
         "countryCode": "US",
