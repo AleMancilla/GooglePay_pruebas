@@ -1,58 +1,674 @@
 {
   "project_info": {
-    "project_number": "740313953886",
-    "project_id": "food-app-with-admin-pane-9fbc0",
-    "storage_bucket": "food-app-with-admin-pane-9fbc0.appspot.com"
+    "project_number": "1018625403742",
+    "firebase_url": "https://el-chaski-delivery-bolivia.firebaseio.com",
+    "project_id": "el-chaski-delivery-bolivia",
+    "storage_bucket": "el-chaski-delivery-bolivia.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:740313953886:android:ac896a7f12a05f39b126cf",
+        "mobilesdk_app_id": "1:1018625403742:android:90a4387ea5a17bae",
         "android_client_info": {
-          "package_name": "com.example.my_food_app"
+          "package_name": "com.chaskidelivery"
         }
       },
       "oauth_client": [
         {
-          "client_id": "740313953886-c153n1ges5og8o0bndhi5bf44o5n356c.apps.googleusercontent.com",
+          "client_id": "1018625403742-oe6fuer68cbv2cfmk6ogr3bt1561fk5p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.my_food_app",
-            "certificate_hash": "e835fd05045249385e833d68409d3614f8efcb4d"
+            "package_name": "com.chaskidelivery",
+            "certificate_hash": "73eeb173ba0c0508da620f1c52a55e24d62d1daf"
           }
         },
         {
-          "client_id": "740313953886-h5klg9lbbv3dvrp62dbungr9qpm7hhqn.apps.googleusercontent.com",
+          "client_id": "1018625403742-pmou9j40ot80t9b7rf990fqhsmpod04h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.my_food_app",
-            "certificate_hash": "949435023c4b4d2af71d48a5f4dd294d9a6ee0bc"
+            "package_name": "com.chaskidelivery",
+            "certificate_hash": "33d06bd617d0e76d837e83f855dc079c3e48faf0"
           }
         },
         {
-          "client_id": "740313953886-l2qti3c0neufcvodg6cdpqn40hs1pqh8.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.my_food_app",
-            "certificate_hash": "b844ae838a73aa7aebe25ccd408fc6ee8ddbc3bb"
-          }
-        },
-        {
-          "client_id": "740313953886-lfc69p5rsbhvm7dp0bg5dkdstfiu53so.apps.googleusercontent.com",
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDOOtoBdRMYzjPCtcH7lGjiJdPTjg4ugjM"
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "740313953886-ldsvnfkkn713h426v2f1rg0etj7hrg6m.apps.googleusercontent.com",
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:3c2d9eb03871254ef43dcf",
+        "android_client_info": {
+          "package_name": "com.deliveryservice.elchaski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-55be2tptm4r2grsurd8rtjhfjug0qcvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-bib1m7shthjdrfiq9udosco5mpstqdr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski",
+            "certificate_hash": "e84476ab6d609cae45840777146c1024fc16f052"
+          }
+        },
+        {
+          "client_id": "1018625403742-gm2gv2s9i2q8jdsertd90fk7sv62ameo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski",
+            "certificate_hash": "657a1dffa1016c78d2c4c7c513be629f0096b209"
+          }
+        },
+        {
+          "client_id": "1018625403742-ojvb51452vhcbmodukbsas85bcae7gqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski",
+            "certificate_hash": "33d06bd617d0e76d837e83f855dc079c3e48faf0"
+          }
+        },
+        {
+          "client_id": "1018625403742-toojshbp7atn33cnih4bq8njtb719itr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:4420379209c06d62f43dcf",
+        "android_client_info": {
+          "package_name": "com.deliveryservice.elchaski.chaskirider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-4l7v71ntnf2dajj02761kdfsib355rfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "e410abb3714928e4ce3b26a901be6a8e296ff7a4"
+          }
+        },
+        {
+          "client_id": "1018625403742-g7ke9ij9ma2nr5qqsvb7uctd1qjmur18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "2b4a8e63a0626c86b1555c689b8cee2b3c608f86"
+          }
+        },
+        {
+          "client_id": "1018625403742-i3crn3oct25frsqjec8tankksjjsl4jh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "33d06bd617d0e76d837e83f855dc079c3e48faf0"
+          }
+        },
+        {
+          "client_id": "1018625403742-ijkdpjq5v344qd5jn4cd5ae2vq10vg7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-lpk6ee1mjgogik2538t6457bj7aeri4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-sc32t2tl1ebr5v33c1i1ohs7p05lo2hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.chaskirider",
+            "certificate_hash": "eda68368f1a702b548a88b7f6e487cf63ddc34fd"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:cce869bbea75943bf43dcf",
+        "android_client_info": {
+          "package_name": "com.deliveryservice.elchaski.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-7vlo66gd8uatupbqf848a6utg5j401st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.rider",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-ep5qq87bm9j19saud5uvrf4n3sfla8is.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.rider",
+            "certificate_hash": "33d06bd617d0e76d837e83f855dc079c3e48faf0"
+          }
+        },
+        {
+          "client_id": "1018625403742-g1bospch3fhnhr6mbe11pirnrg6j71me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deliveryservice.elchaski.rider",
+            "certificate_hash": "e410abb3714928e4ce3b26a901be6a8e296ff7a4"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:bc17700b3a797ce2f43dcf",
+        "android_client_info": {
+          "package_name": "com.deliveryservices.elchaski.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:7879cfb42cf43969f43dcf",
+        "android_client_info": {
+          "package_name": "com.example.restorant_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:4e887fa89a4c0810f43dcf",
+        "android_client_info": {
+          "package_name": "deliveryservice.elchaski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-a3isip53hn5fcfudbrd70s3euam85np4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-ofu3p707buh40pffs1u74ekjhe2gdt17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:d8a9f9117dfdd9aef43dcf",
+        "android_client_info": {
+          "package_name": "deliveryservice.elchaski.crm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-go49d1octo7hjo99njasf6126chkici6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.crm",
+            "certificate_hash": "e84476ab6d609cae45840777146c1024fc16f052"
+          }
+        },
+        {
+          "client_id": "1018625403742-oc6oterml7snssfufvqjal2bkqslt5ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.crm",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-ra7nuidfmqjhuadbrc7fvg49borkd4op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.crm",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:f69c1213bee10e11f43dcf",
+        "android_client_info": {
+          "package_name": "deliveryservice.elchaski.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-af8drn83kp6qqvsd77k952opbpdr780b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.partner",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-qi4nkjnh2d3krkkhh40pmsnlv93si1cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.partner",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:128e28c79e196eebf43dcf",
+        "android_client_info": {
+          "package_name": "deliveryservice.elchaski.partner.Admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:a4b23b48a40cfc62f43dcf",
+        "android_client_info": {
+          "package_name": "deliveryservice.elchaski.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-e8f5v3gnvnrm4fbkj35ag546742es7d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.rider",
+            "certificate_hash": "7b04bd6dfe7e37beb8862e8c954fee540dc7a63e"
+          }
+        },
+        {
+          "client_id": "1018625403742-ffhavk65hkctm8ced6m5360j5594bmbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deliveryservice.elchaski.rider",
+            "certificate_hash": "e3af76d9564e4750312c9febd49b86ee51b325f0"
+          }
+        },
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:17d9d66ab49c2e75f43dcf",
+        "android_client_info": {
+          "package_name": "dev.ekeko.elchaski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018625403742:android:0b86fe25e4cbf913f43dcf",
+        "android_client_info": {
+          "package_name": "dev.ekeko.elchaskiadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1gd1R5kmWw9c6CdMzn_a43LJtOsm0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018625403742-3gadkjkdjq1sch53p1mlct5vvet0q2lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018625403742-9otp6he59iblghdthl0ak1tutdr221a1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practicaChaski"
+              }
             }
           ]
         }
