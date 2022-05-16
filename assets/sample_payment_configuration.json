@@ -16,16 +16,16 @@
         "parameters": {
           "allowedCardNetworks": ["VISA", "MASTERCARD"],
           "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
-          "billingAddressRequired": true,
+          "billingAddressRequired": false,
           "billingAddressParameters": {
             "format": "FULL",
-            "phoneNumberRequired": true
+            "phoneNumberRequired": false
           }
         }
       }],
       "merchantInfo": {
-        "merchantId": "BCR2DN4TWCMIXTJD",
-        "merchantName": "TestAle"
+        "merchantId": "BCR2DN4TWC72BOKM",
+        "merchantName": "CURSOSPARAPROGRAMADORES"
       },
       "transactionInfo": {
         "countryCode": "US",

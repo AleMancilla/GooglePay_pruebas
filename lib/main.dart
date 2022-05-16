@@ -15,11 +15,19 @@ class _MyAppState extends State<MyApp> {
   Pay payclient = Pay.withAssets(['sample_payment_configuration.json']);
 
   defaultOnPressed(List<PaymentItem> paymentItems) async {
+    print('-------------------------------');
     try {
       final result =
           await payclient.showPaymentSelector(paymentItems: paymentItems);
+
+      print('##########################################');
+      print(result);
+      print('##########################################');
       // onPaymentResult(result);
     } catch (error) {
+      print('ee##########################################');
+      print(error);
+      print('##########################################');
       // onError?.call(error);
     }
   }
@@ -92,9 +100,15 @@ class _MyAppState extends State<MyApp> {
                     ],
                   ),
                   onPaymentResult: (madpay.PaymentResponse req) {
+                    print('##########################################');
+                    print(req);
+                    print('##########################################');
                     // ...
                   },
                   onError: (Object e) {
+                    print('sss##########################################');
+                    print(e);
+                    print('##########################################');
                     // ...
                   },
                 ),
@@ -107,10 +121,10 @@ class _MyAppState extends State<MyApp> {
   }
 
   final madpay.GoogleParameters googleParameters = madpay.GoogleParameters(
-    gatewayName: 'firstdata',
-    gatewayMerchantId: 'example_id',
-    merchantId: 'TEST',
-    merchantName: 'Test',
+    gatewayName: 'example',
+    gatewayMerchantId: 'exampleGatewayMerchantId',
+    merchantId: 'BCR2DN4TWC72BOKM',
+    merchantName: 'CURSOSPARAPROGRAMADORES',
     cardParameters: madpay.CardParameters(
       billingAddressRequired: true,
       billingAddressParameters: madpay.BillingAddressParameters(
@@ -138,9 +152,15 @@ class _MyAppState extends State<MyApp> {
 
   void onApplePayResult(paymentResult) {
     // Send the resulting Apple Pay token to your server / PSP
+    print('##########################################');
+    print(paymentResult);
+    print('##########################################');
   }
 
   void onGooglePayResult(paymentResult) {
     // Send the resulting Google Pay token to your server / PSP
+    print('www##########################################');
+    print(paymentResult);
+    print('##########################################');
   }
 }
